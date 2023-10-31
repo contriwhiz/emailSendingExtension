@@ -36,17 +36,17 @@ function createPopup() {
       </div>
       <div class="linkedIn-scrapping-popup-body">
         <div id="top">
-          <label for="uploadfile" style="color: red;">Csv File:</label>
+          <label for="uploadfile" style="color: red;" required>Csv File:</label>
           <input type="file" id="uploadfile" accept=".csv" style="width:220px"><br>
           <button id="uploadcsv">Upload</button>
         </div>
         <div id="mid">
           <label for "subject" style="color: red;">Subject:</label>
-          <input type="text" id="subject" placeholder="Enter Subject">
+          <input type="text" id="subject" placeholder="Enter Subject" required>
         </div>
         <div id="bottom">
           <label for="messageSend" style="color: red;">Message:</label>
-          <textarea id="messageSend" placeholder="Enter Message" rows="10" cols="25"></textarea>
+          <textarea id="messageSend" placeholder="Enter Message" rows="10" cols="25" required></textarea>
         </div>
       </div>
       <div class="email-scrapping-popup-footer">
